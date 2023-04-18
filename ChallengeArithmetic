@@ -1,0 +1,17 @@
+package fundamentals;
+
+public class ChallengeArithmetic {
+	
+	public static void main(String[] args){
+		
+		double a1 = Math.pow(6 * (3 + 2), (2));
+		double a2 = a1 / (3 * 2);
+		
+		double b1 = (1 - 5) * (2 - 7) / 2;
+		double b2 = Math.pow(b1, 2);
+		
+		double c1 = Math.pow(a2 - b2, 3) / Math.pow(10, 3);
+		
+		System.out.println(c1);
+	}
+}
